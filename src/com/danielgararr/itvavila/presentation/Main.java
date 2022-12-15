@@ -39,9 +39,8 @@ public class Main {
         Vehiculo vehiculoBuscado = buscarVehiculoUseCase.execute("1"); //Pongo el código del Demo que quiero recuperar
         System.out.println("Vehiculo buscado" + vehiculoBuscado.getMatricula() + " | " + vehiculoBuscado.getMarca());
 
-        BuscarVehiculoUseCase buscarVehiculoUseCase1 = new BuscarVehiculoUseCase();
-        Vehiculo vehiculoBuscado1 = buscarVehiculoUseCase1.execute("1"); //Pongo el código del Demo que quiero recuperar
+        BuscarVehiculoUseCase buscarVehiculoUseCase = new BuscarVehiculoUseCase();
+        Vehiculo vehiculoBuscado = buscarVehiculoUseCase.execute("1"); //Pongo el código del Demo que quiero recuperar
         System.out.println("Vehiculo buscado" + vehiculoBuscado.getMatricula() + " | " + vehiculoBuscado.getMarca());
-    }
     }
 }

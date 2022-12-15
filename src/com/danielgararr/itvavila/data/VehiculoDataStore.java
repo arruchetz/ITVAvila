@@ -19,7 +19,7 @@ public class VehiculoDataStore {
     }
 
     public Vehiculo buscar(String matricula) {
-        return (Demo) dataStore.get(matricula);
+        return dataStore.get(matricula);
     }
 
     public void modificar(Vehiculo vehiculo) {
